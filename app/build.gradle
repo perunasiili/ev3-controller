@@ -1,0 +1,25 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace "com.ev3.controller"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.ev3.controller"
+        minSdk 26
+        targetSdk 34
+        versionCode 15
+        versionName "15"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+}
